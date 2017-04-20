@@ -160,7 +160,8 @@ header {
 /* Main */
 main {
 
-	background-color: $backgroundColor;
+	background: url(/assets/img/bg.png);
+	background-repeat: repeat;
 
 	/* Main container */
 	>section {
