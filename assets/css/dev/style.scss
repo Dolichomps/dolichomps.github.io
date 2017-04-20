@@ -232,7 +232,7 @@ main {
 					bottom: 0;
 					content: "";
 					position: absolute;
-					border-bottom: 1px solid $headerBorderColor;
+					border-bottom: 1px solid $backgroundColor;
 
 					/* Mobile */
 					@media(max-width:$mobile-max) {
@@ -273,7 +273,7 @@ main {
 					background: $backgroundColor;
 					margin-left: -8px;
 					position: absolute;
-					border: 1px solid $headerBorderColor;
+					border: 1px solid $backgroundColor;
 					@include vendor1(border-radius, 100%);
 					@include vendor1(box-shadow, 0 0 0 8px $backgroundColor);
 				}/* .pagination:after */
@@ -322,13 +322,13 @@ main {
 				a {
 
 					@extend .buttonsAndPageNumber;
-					border: 1px solid $headerBorderColor;
+					border: 1px solid $backgroundColor;
 					@include vendor1(border-radius, $articleImageBorderRadius);
 
 					/* a:hover */
 					&:hover {
 						color: darken($generalTextColor, 15%);
-						border: 1px solid darken($headerBorderColor, 15%);
+						border: 1px solid darken($backgroundColor, 15%);
 					}/* &:hover */
 
 				}/* a */
@@ -373,7 +373,7 @@ main {
 					bottom: 0;
 					content: "";
 					position: absolute;
-					border-bottom: 1px solid $headerBorderColor;
+					border-bottom: 1px solid $backgroundColor;
 
 					/* Mobile */
 					@media(max-width:$mobile-max) {
@@ -414,7 +414,7 @@ main {
 					background: $backgroundColor;
 					margin-left: -8px;
 					position: absolute;
-					border: 1px solid $headerBorderColor;
+					border: 1px solid $backgroundColor;
 					@include vendor1(border-radius, 100%);
 					@include vendor1(box-shadow, 0 0 0 8px $backgroundColor);
 				}/* article:after */
@@ -681,12 +681,12 @@ footer {
 
 	/* Footer container */
 	.dtc {
-		color: darken($footerBackgroundColor, 30%);
+		color: $titleTextColor;
 	}/* .dtc */
 
 	/* Links */
 	a {
-		color: darken($footerBackgroundColor, 40%) !important;
+		color: $titleTextColor !important;
 	}/* a */
 
 }/* footer */
