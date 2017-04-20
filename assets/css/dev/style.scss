@@ -323,13 +323,13 @@ main {
 				a {
 
 					@extend .buttonsAndPageNumber;
-					border: 1px solid $backgroundColor;
+					border: 1px solid $linkBorderColor;
 					@include vendor1(border-radius, $articleImageBorderRadius);
 
 					/* a:hover */
 					&:hover {
 						color: darken($generalTextColor, 15%);
-						border: 1px solid darken($backgroundColor, 15%);
+						border: 1px solid darken($linkBorderColor, 15%);
 					}/* &:hover */
 
 				}/* a */
