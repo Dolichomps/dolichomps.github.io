@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "My Test Post!"
 date:   2017-4-20
 categories: tests
