@@ -7,6 +7,10 @@
 @import "prism";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab&subset=latin,latin-ext);
 
+body{
+	background-color: $backgroundColor;
+}
+
 /* Margin-top */
 .mt {
 
