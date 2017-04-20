@@ -81,11 +81,11 @@ $aspectRatioX: 2;
 $aspectRatioY: 1;
 
 /* Colors */
-$titleTextColor: #4a4a4a;
-$paragraphTextColor: #3A4145;
+$titleTextColor: #f5f5f5;
+$paragraphTextColor: #eeeeee;
 $generalTextColor: lighten($titleTextColor, 40%);
 $linkBorderColor: #b4e7f8;
-$headerBackgroundColor: #f5f5f5;
+$headerBackgroundColor: #3A4145;
 $headerBorderColor: darken($headerBackgroundColor, 3%);
 $footerBackgroundColor: $headerBackgroundColor;
 $footerBorderColor: darken($footerBackgroundColor, 3%);
