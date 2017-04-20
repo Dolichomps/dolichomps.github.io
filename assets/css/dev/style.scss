@@ -11,6 +11,14 @@ body{
 	background-color: $backgroundColor;
 }
 
+#title {
+	color: $generalTextColor;
+}
+
+#description {
+		color: $generalTextColor;
+}
+
 /* Margin-top */
 .mt {
 
@@ -147,14 +155,12 @@ header {
 		>div {
 
 			height: $headerHeight;
-			color: $generalTextColor;
 			@include vendor2(width, calc(100% - #{$header__iconHeight * 2}));
 
 			/* Site description */
 			h6 {
 				font-weight: normal;
 				font-family: $articleFontFamily;
-				color: $generalTextColor;
 			}/* h6 */
 
 		}/* >div */
