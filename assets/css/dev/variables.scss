@@ -81,9 +81,9 @@ $aspectRatioX: 2;
 $aspectRatioY: 1;
 
 /* Colors */
-$titleTextColor: #5e8d87;
+$titleTextColor: #a54242;
 $paragraphTextColor: #c5c8c6;
-$generalTextColor: lighten($titleTextColor, 40%);
+$generalTextColor: $paragraphTextColor;
 $linkBorderColor: #a54242;
 $headerBackgroundColor: #1d1f21;
 $backgroundColor: #282a2e;

@@ -265,12 +265,12 @@ main {
 					bottom: -8px;
 					height: 16px;
 					display: block;
-					background: #fff;
+					background: $backgroundColor;
 					margin-left: -8px;
 					position: absolute;
 					border: 1px solid $headerBorderColor;
 					@include vendor1(border-radius, 100%);
-					@include vendor1(box-shadow, 0 0 0 8px #fff);
+					@include vendor1(box-shadow, 0 0 0 8px $backgroundColor);
 				}/* .pagination:after */
 
 			}/* &.top */
@@ -297,7 +297,7 @@ main {
 
 					font-size: 12px;
 					padding: 10px 20px;
-					background-color: #fff;
+					background-color: $backgroundColor;
 					color: $generalTextColor;
 
 					/* Mobile */
@@ -406,12 +406,12 @@ main {
 					bottom: -8px;
 					height: 16px;
 					display: block;
-					background: #fff;
+					background: $backgroundColor;
 					margin-left: -8px;
 					position: absolute;
 					border: 1px solid $headerBorderColor;
 					@include vendor1(border-radius, 100%);
-					@include vendor1(box-shadow, 0 0 0 8px #fff);
+					@include vendor1(box-shadow, 0 0 0 8px $backgroundColor);
 				}/* article:after */
 
 			}/* &:not(.noBorder) */
