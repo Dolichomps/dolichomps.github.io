@@ -8,4 +8,6 @@ coverPhoto: https://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG
 
 ![test image](https://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_IMG_9998.jpg)
 
-    <h1>test</h1>
+```html
+<h1>test</h1>
+```

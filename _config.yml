@@ -8,7 +8,7 @@ locale: "english"
 
 # Jekyll
 paginate: 10
-highlighter: "rouge"
+highlighter: ""
 markdown: kramdown
 gems: [jekyll-paginate]
 timezone: America/Halifax
