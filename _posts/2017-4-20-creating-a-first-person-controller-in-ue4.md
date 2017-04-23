@@ -14,7 +14,7 @@ As the first in hopefully a series of tutorials I wanted to set up a base projec
  4. [Creating a custom game mode](#gamemode)
  5. [Creating the player movement](#movement)
 
-###<a name="blank"></a> 1. Setting up a Blank Project
+<a name="blank"></a> ### 1. Setting up a Blank Project
 We will start by making a new project. You will want to chose to create a **blueprints project** with the **blank** template. Make sure you choose no starter content for now, as we can import that later if needed.
 
 ![alt text](http://i.imgur.com/OvtMwKz.png "Creating blank project")

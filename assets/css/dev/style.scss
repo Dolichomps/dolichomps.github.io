@@ -166,7 +166,10 @@ header {
 main {
 
 	background-color: $backgroundColor;
-	text-align: justify;
+
+	p {
+		text-align: justify;
+	}
 
 	/* Main container */
 	>section {
