@@ -6,7 +6,7 @@ categories: UE4 Tutorials
 coverPhoto: http://ozgrozer.com/content/images/2016/06/startSSL.jpg
 ---
 
-As the first in hopefully a series of tutorials I wanted to set up a base project for those who may want to follow along. To start with we are going to make a fisrt person controller using blueprints as I feel that it will help familiarize new users with the blueprint editor while still creating something of use. This tutorial will contain the following:
+As the first in hopefully a series of tutorials I wanted to set up a base project for those who may want to follow along. To start with we are going to make a first person controller using blueprints as I feel that it will help familiarize new users with the blueprint editor while still creating something of use. This tutorial will contain the following:
 
  1. [Setting up a blank project](#blank)
  2. [Setting up player inputs](#inputs)
@@ -65,7 +65,7 @@ That is it for our **Axis Mappings** now we need to add a bind for jumping. That
 We are now done setting up all the inputs we need to basic player controls. Feel free to close the **Project Settings** window, no need to save it does that automatically.
 
 <a name="fps"></a>
-### 5. Creating the FPSController Blueprint
+### 3. Creating the FPSController Blueprint
 
 Now it is time to create our **FPSController** blueprint. To do this double click on your **Blueprints** folder then right click anywhere in the Content Browser. This will open a menu and from the menu select **Blueprint Class**.
 
