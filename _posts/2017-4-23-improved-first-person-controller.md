@@ -12,7 +12,9 @@ Today we are going to make some improvements to the first person controller we m
 
 We will start by adding mouse look sensitivity. Open your **BP_FPSController** blueprint, to add sensitivity we have to adjust the value being sent to the **Val** pin on the **Add Controller Yaw Input** and **Add Controller Pitch Input** nodes. We will do this by multiplying a value with the value coming from the **Axis Value** pin on the **InputAxis MouseX** and **InputAxis MouseY** nodes. We will be adding separate yaw and pitch input so the player has better control over their sensitivity. Start by adding two **float * float** nodes and connecting them according to the picture below.
 
-![alt text](http://i.imgur.com/ErobkUF.png "Adding sensitivity")
+<figure>
+    <a href="http://i.imgur.com/ErobkUF.png"><img src="http://i.imgur.com/ErobkUF.png"></a>
+</figure>
 
 Now we want to create two new float variables to make it easy to change the sensitivity at runtime later on. To do this click the **+** next to **Variables** on the left of the blueprint editor. Name this new variable **XSens** and make sure it is a **float**. To check if your new variable is a float look on the details window in the top left and make sure the settings match the image below.
 
