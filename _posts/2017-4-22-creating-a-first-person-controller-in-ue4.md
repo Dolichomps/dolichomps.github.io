@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Creating a First Person Contoller in UE4"
 date:   2017-4-22
-tags: [ue4 tutorials, first person, fps, blueprint]
-feature: http://i.imgur.com/BY6xyCO.png
+categories: UE4 Tutorials
+coverPhoto: http://i.imgur.com/BY6xyCO.png
 ---
 
 As the first in hopefully a series of tutorials I wanted to set up a base project for those who may want to follow along. To start with we are going to make a first person controller using blueprints as I feel that it will help familiarize new users with the blueprint editor while still creating something of use. This tutorial will contain the following:
