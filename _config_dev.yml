@@ -1,27 +1,29 @@
 
 # The name of your website.
-name: Jordan Tully
+name: Holo Alfa
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Blog about topics such as game development, web development, graphic design, IoT devices, and whatever.
+  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Generally geeky
+  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
-  name: Jordan Tully # Change this!
+  name: Dr. Jekyll # Change this!
 
   # Necessary for contact page
-  email: jtullyoops@gmail.com # Change this!
+  email: your@email.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://jtully.ca
-baseurl: "/"
+# The URL of the homepage of your site (without trailing slash). Leave this
+# empty when you run Jekyll locally.
+url: http://localhost:4000
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
@@ -36,22 +38,20 @@ lang: en
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
 display-social-icons: false
-# If you want social links to open in a new tab, set this as true
-social-icons-open-newtab: true
 
-footer-text: 
+footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#ff00e5"
+theme-color-attr: "#00f0ff"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#ff00e5"
+ms-tile-color: "#00f0ff"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 255, 0, 229 # Original: 0, 240, 255
+theme-color: 0, 240, 255 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
 text-color: 0, 0, 0 # Original: 0, 0, 0
@@ -64,7 +64,7 @@ text-color: 0, 0, 0 # Original: 0, 0, 0
 background-color: 255, 255, 255 # Original: 255, 255, 255
 
 display-author-post-page: true
-display-author-front-page: false
+display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
 date_format: "%b %-d, %Y"

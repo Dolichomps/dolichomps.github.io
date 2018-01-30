@@ -1,73 +1,43 @@
 ---
 layout: default
+home: true
 ---
 
-<!-- Don't show pagination bar in homepage -->
-{% if paginator.page > 1 %}
 
-	<!-- Include pagination bar -->
-	{% include pagination.html section="top" %}
 
-{% endif %}
-
-<!-- Loop for posts by paginator -->
 {% for post in paginator.posts %}
 
-	<!-- Article -->
-	<article>
+{% assign minutes = post.content | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+  {% assign read-time = site.var_less_than_a_minute_read %}
+{% else %}
+  {% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
+{% endif %}
 
-		<!-- Article title -->
-		<a href="{{ site.baseurl }}{{ post.url }}" class="h1">{{ post.title }}</a>
+  <article>
+    <span class="meta">
+      {% if site.display-author-front-page %}
+        {% if post.author.name %}
+          {{ post.author.name }} •
+        {% else %}
+          {% if site.author.name %}
+            {{ site.author.name }} •
+          {% endif %}
+        {% endif %}
+      {% endif %}
+      {{ post.date | date: site.date_format }} • {{ read-time }}</span>
+  	<a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
+      <p>
+      {% if post.summary %}
+        {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
+      {% else %}
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
+      {% endif %}
+      </p>
 
-			<!-- If article has a cover photo -->
-			{% if post.coverPhoto %}
-
-				<!-- Article image with aspect ratio -->
-				<a href="{{ site.baseurl }}{{ post.url }}" class="ar-container">
-					<span class="ar-content" style="background-image: url({{ post.coverPhoto }});"></span>
-				</a><!-- .ar-container -->
-
-			{% endif %}
-
-		<!-- Article pre description -->
-		<section class="max-height">{{ post.content | strip_html | slice: 0, 200 }}</section>
-
-		<!-- Article date & article continue reading button container -->
-		<div class="article__bottom">
-
-			<!-- Article date -->
-			<span class="article__date">
-				{% if site.lang == "tr" %}
-					{% assign m = post.date | date: "%-m" %}
-					{{ post.date | date: "%-d" }} 
-					{% case m %}
-						{% when "1" %}OCAK 
-						{% when "2" %}ŞUBAT 
-						{% when "3" %}MART 
-						{% when "4" %}NİSAN 
-						{% when "5" %}MAYIS 
-						{% when "6" %}HAZİRAN 
-						{% when "7" %}TEMMUZ 
-						{% when "8" %}AĞUSTOS 
-						{% when "9" %}EYLÜL 
-						{% when "10" %}EKİM 
-						{% when "11" %}KASIM 
-						{% when "12" %}ARALIK 
-					{% endcase %}
-					{{ post.date | date: "%Y" }}
-				{% else %}
-					{{ post.date | date_to_long_string | upcase }}
-				{% endif %}
-			</span>
-
-			<!-- Article continue reading button -->
-			<a class="article__button" href="{{ site.baseurl }}{{ post.url }}">{% if site.lang == "tr" %}DEVAMINI OKU{% else %}CONTINUE READING{% endif %}</a>
-
-		</div><!-- .article__bottom -->
-
-	</article><!-- article -->
-
+  </article>
 {% endfor %}
 
-<!-- Include pagination bar -->
-{% include pagination.html section="bottom" %}
+{% if paginator.previous_page or paginator.next_page %}
+  {% include pagination.html %}
+{% endif %}
