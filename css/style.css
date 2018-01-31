@@ -283,14 +283,14 @@ article:last-of-type::after {
 }
 a.read-more {
   display: inline-block;
-  color: rgb({{site.theme-color}})
+  color: rgb({{site.theme-color}});
   background-image: none;
   text-decoration: none !important;
   font-weight: 600;
 }
 
 a.read-more:hover {
-  color: rgb({{site.text-color}})
+  color: rgb({{site.text-color}});
 }
 input[type="email"],
 textarea {
