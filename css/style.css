@@ -370,6 +370,11 @@ footer .inner {
   text-decoration: none !important;
   color: rgb({{ site.theme-color }});
 }
+
+.website-title:hover {
+  color: rgba({{ site.text-color }},.76);
+}
+
 nav a {
   display: block;
   padding: 5px;
