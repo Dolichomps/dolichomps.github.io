@@ -333,6 +333,7 @@ input[type="submit"] {
   margin-bottom: 50px;
 }
 footer {
+  margin: 0 auto;
   font-size: 0.8em;
   color: rgba({{ site.text-color }},0.5);
   text-align: center;
