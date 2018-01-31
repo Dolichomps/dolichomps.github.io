@@ -61,6 +61,10 @@ a {
   background-size: 1px 1px;
   background-position: 0 87%;
 }
+
+a:hover {
+  color: rgb({{site.theme-color}});
+}
 .no-cssgradients a {
   text-decoration: underline;
 }
