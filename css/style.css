@@ -369,7 +369,6 @@ footer .inner {
   background-image: none;
   text-decoration: none !important;
   color: rgb({{ site.theme-color }});
-  border-bottom: 1px solid rgba({{ site.text-color }}, 0.1);
 }
 nav a {
   display: block;
