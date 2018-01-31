@@ -109,6 +109,6 @@ Tables are a part of [GFM](https://help.github.com/articles/github-flavored-mark
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
-## That's it, for now... ##
+That's it, for now...
 
 
