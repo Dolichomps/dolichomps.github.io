@@ -148,10 +148,10 @@ tr:last-child {
   border: none;
 }
 thead {
-  border-bottom: 2px solid rgba({{ site.theme-color }}, .4);
+  border-bottom: 2px solid rgb({{ site.theme-color }});
 }
 tfoot {
-  border-top: 2px solid rgba({{ site.theme-color }}, .4);
+  border-top: 2px solid rgb({{ site.theme-color }});
 }
 blockquote {
   padding: 0 20px;
@@ -216,7 +216,7 @@ small a {
 }
 hr {
   border:none;
-  background-color: rgba({{ site.theme-color }}, .4);
+  background-color: rgb({{ site.theme-color }});
   margin: 60px auto;
   width: 30%;
   height: 2px;
@@ -368,7 +368,8 @@ footer .inner {
   display: block;
   background-image: none;
   text-decoration: none !important;
-  color: rgba({{ site.text-color }}, .76);
+  color: rgb({{ site.theme-color }});
+  border-bottom: 1px solid rgba({{ site.text-color }}, 0.1);
 }
 nav a {
   display: block;
