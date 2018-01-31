@@ -348,7 +348,7 @@ footer a {
 }
 footer .inner {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0;
   max-width: 740px;
 }
 
