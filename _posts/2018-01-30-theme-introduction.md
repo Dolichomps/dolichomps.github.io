@@ -3,7 +3,7 @@ title: Theme introduction
 cover-image: hipster.jpg
 ---
 
-This post is a showcase of what Holo Alfa looks like, and a reference guide for how you can use it to make your blog shine.
+This is an introductory post to display the themeing of my site, i use it as a refernece for when I can’t remeber everything.
 
 <!--more-->
 
@@ -111,4 +111,3 @@ Tables are a part of [GFM](https://help.github.com/articles/github-flavored-mark
 
 ## That's it, for now... ##
 
-You can get Holo Alfa at the [Github repository](https://github.com/steinvc/holo-alfa). Maybe add/suggest new features. Or report bugs.
