@@ -363,6 +363,7 @@ footer .inner {
 nav a {
   display: block;
   padding: 5px;
+  color:  rgb({{ site.text-color }});
   text-align: center;
   background-image: none;
   text-decoration: none !important;
