@@ -471,9 +471,6 @@ nav a.current {
     display: inline-block;
     padding: 5px 8px;
   }
-  .website-title {
-    margin-bottom: 80px;
-  }
 }
 @media all and (min-width: 760px) {
   h1 {
