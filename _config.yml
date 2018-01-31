@@ -39,7 +39,7 @@ display-social-icons: false
 # If you want social links to open in a new tab, set this as true
 social-icons-open-newtab: true
 
-footer-text: 
+footer-text: All product names, logos, and brands are property of their respective owners.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
