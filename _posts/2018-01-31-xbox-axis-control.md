@@ -1,6 +1,6 @@
 ---
 title: Granular control with a gamepad
-cover-image: CHANGEME
+cover-image: xboxAxis.png
 summary: Today we will learn to achieve granular control with a gamepad joystick in Godot by creating a very simple character controller to showcase it.
 ---
 
