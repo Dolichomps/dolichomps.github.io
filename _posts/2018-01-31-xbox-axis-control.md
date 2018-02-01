@@ -16,7 +16,7 @@ This will create a new script named `Player.gd`, attach it to our Player node, a
 ## The programming part ⌨️ ##
 We will start by creating a constant to hold our max speed, and variables to hold our controller deadzone, joystick axis value, and current motion.
 
-{% highlight python %}
+{% highlight javascript %}
 extends KinematicBody2D
 
 const MAX_SPEED = 500
@@ -28,7 +28,7 @@ var motion = Vector2()
 
 Since we are moving a character we want its movement logic to be framerate independent, this mean we will use the `_physics_process` function to update our character's postion. Each physics update we reset our movement vector to (0, 0) then set the `axisValue` vector to the value that the joystick is at on both x and y. Then if the axis value is greater than the deadzone we update the motion vector and then move the character. Let's see what that looks like.
 
-{% highlight python %}
+{% highlight javascript %}
 extends KinematicBody2D
 
 const MAX_SPEED = 500
@@ -55,6 +55,8 @@ func _physics_process(delta):
 	move_and_collide(motion)
 {% endhighlight %}
 
-Believe it or not that is all the code we need, press the play button in the top right or just press f5 and you should be greeted with this
+Believe it or not that is all the code we need, press the play button in the top right or just press f5 and you should be greeted with a little character you can move around with your gamepad with speed that increases with how far you push the joystick.
 
 ![Game]({{ site.baseurl }}/img/game.gif)
+
+That is it for this tutorial, if you would like to download the finished project you can get it [here](https://mega.nz/#!QA0xjAyK!eGrzhu05rF0draESkhI62LjUHipaEPBcgJ9_wqhlcCI).
