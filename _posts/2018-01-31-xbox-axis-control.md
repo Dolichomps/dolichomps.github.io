@@ -15,7 +15,7 @@ This will create a new script named `Player.gd`, attach it to our Player node, a
 
 ## The programming part ⌨️ ##
 We will start by creating a constant to hold our max speed as well as a variable to hold the value of our joystick axis.
-{% highlight python %}
+{% highlight javascript %}
 extends KinematicBody2D
 
 const MAX_SPEED = 500
