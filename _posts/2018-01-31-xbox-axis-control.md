@@ -43,16 +43,16 @@ func _physics_process(delta):
     
     # store the joy axis x and y value
     # Input.get_joy_axis(int device, int axis) returns a value between -1 and 1
-	axisValue.x = Input.get_joy_axis(0, 0)
-	axisValue.y = Input.get_joy_axis(0, 1)
+    axisValue.x = Input.get_joy_axis(0, 0)
+    axisValue.y = Input.get_joy_axis(0, 1)
     
     # check if the axis value is more than the deadzone
-    # must use absolute value because avisValue can be negative
-	if (abs(axisValue.x) > deadzone or abs(axisValue.y) > deadzone):
-		motion = (axisValue * MAX_SPEED) * delta
+    # must use absolute value because axisValue can be negative
+    if (abs(axisValue.x) > deadzone or abs(axisValue.y) > deadzone):
+        motion = (axisValue * MAX_SPEED) * delta
     
     # move on the motion vector and check for collision
-	move_and_collide(motion)
+    move_and_collide(motion)
 {% endhighlight %}
 
 Believe it or not that is all the code we need, press the play button in the top right or just press f5 and you should be greeted with a little character you can move around with your gamepad with speed that increases with how far you push the joystick.
