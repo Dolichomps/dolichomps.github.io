@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/my-first-post/</loc>
-    <lastmod>2019-01-26T22:38:20+00:00</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/hello/</loc>
+    <lastmod>1986-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,13 +19,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-26T22:38:20+00:00</lastmod>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-01-26T22:38:20+00:00</lastmod>
+    <lastmod>1986-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
