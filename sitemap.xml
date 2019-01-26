@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jtully.ca/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2019-01-26T22:38:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jtully.ca/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jtully.ca/</loc>
-    <lastmod>2019-01-26T22:38:20+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://jtully.ca/posts/</loc>
+    <loc>/</loc>
     <lastmod>2019-01-26T22:38:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jtully.ca/tags/</loc>
+    <loc>/posts/</loc>
+    <lastmod>2019-01-26T22:38:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
