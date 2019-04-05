@@ -20,7 +20,8 @@
       <description>hellll
 dfjksdf
 sdjfkls
-this is a test.jk</description>
+this is a test.jk
+func my_func(): print(&amp;quot;Hello&amp;quot;) print(yield()) return &amp;quot;cheers!&amp;quot; func _ready(): var y = my_func() # Function state saved in &#39;y&#39;. print(y.resume(&amp;quot;world&amp;quot;)) # &#39;y&#39; resumed and is now an invalid state.  </description>
     </item>
     
   </channel>
